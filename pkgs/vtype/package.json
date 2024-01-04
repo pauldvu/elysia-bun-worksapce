@@ -1,0 +1,8 @@
+{
+  "name": "vtype",
+  "main": "index.ts",
+  "source": "index.ts",
+  "dependencies": {
+    "typebox": "workspace:*"
+  }
+}

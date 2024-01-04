@@ -1,0 +1,48 @@
+
+# Ignore trace, zip, tar, and log files
+**/*.trace
+
+**/*.tar.gz
+**/*.tgz
+**/*.log
+**/*.bun
+
+# Ignore Node.js dependencies
+node_modules
+/node_modules
+/.pnp
+.pnp.js
+test-sqlite*
+# images
+package-lock.json
+
+# Ignore build and output files
+/build
+.out
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/images
+# Ignore npm debug logs
+npm-debug.log*
+# Ignore developer-specific files and folders
+/.dev
+
+# Ignore PV files
+/.pv
+.pv
+
+# Ignore SQLite database files and replicas
+# /.db
+client_wal_index
+sqlite-turso.db
+sqlite-turso.db-shm
+sqlite-turso.db-wal
+  

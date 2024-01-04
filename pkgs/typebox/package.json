@@ -1,0 +1,6 @@
+{
+  "name": "typebox",
+  "version": "0.32.4",
+  "main": "src/index.ts",
+  "source": "src/index.ts"
+}

@@ -1,0 +1,10 @@
+{
+  "workspaces": [
+    "pkgs/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "d": "APP_ENV=local doppler run -- bun --watch run ./apps/platform/index.ts",
+    "cc": "rm -rf node_modules pkgs/toast/node_modules apps/platform/node_modules bun.lockb pkgs/toast/bun.lockb apps/platform/bun.lockb"
+  }
+}
