@@ -2,7 +2,7 @@
   "name": "main",
   "private": "true",
   "dependencies": {
-    "typebox": "workspace:*",
-    "vtype": "workspace:*"
+    "vtype": "workspace:*",
+    "immer": "workspace:*"
   }
 }

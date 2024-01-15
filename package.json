@@ -4,7 +4,12 @@
     "apps/*"
   ],
   "scripts": {
-    "d": "APP_ENV=local doppler run -- bun --watch run ./apps/platform/index.ts",
-    "cc": "rm -rf node_modules pkgs/toast/node_modules apps/platform/node_modules bun.lockb pkgs/toast/bun.lockb apps/platform/bun.lockb"
+    "no": "bun i --no-save || echo 'runs bun with no save'",
+    "d": "APP_ENV=local doppler run -- bun --watch run ./apps/platform/index.ts"
+  },
+  "dependencies": {
+    "arktype": "^1.0.29-alpha",
+    "hotscript": "^1.0.13",
+    "string-ts": "^2.0.0"
   }
 }
