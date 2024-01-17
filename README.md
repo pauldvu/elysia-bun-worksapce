@@ -1,8 +1,10 @@
 # Elysia Bun Workspace Mono-Repo
 
-Importing and exporting multiple type defiitions from different apps in a service industry.
-Showing an app consuming type information from a sister service.
-Shows an example of a elysia plugin being imported from an internal package and then being consumed. 
+- Importing and exporting multiple type defiitions from different apps in a service industry.
+- Showing an app consuming type information from a sister service.
+- Shows an example of a elysia plugin being imported from an internal package and then being consumed.
+- Demonstrating how to use `edenTreaty` on the server to call sister services.
+  - *This is assuming each service is on a different deployment. 
 
 
 1. run each server in a new terminal instance
