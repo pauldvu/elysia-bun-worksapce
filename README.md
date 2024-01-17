@@ -1,17 +1,14 @@
-# Mono Repo
+# Elysia Bun Workspace Mono-Repo
 
-importing and exporting multiple type defiitions from elysia
+Importing and exporting multiple type defiitions from different apps in a service industry.
+Showing an app consuming type information from a sister service.
+Shows an example of a elysia plugin being imported from an internal package and then being consumed. 
 
-Using bun workspaces
 
-The example is rudimentary; I made it bery quickly for a discord chat
+1. run each server in a new terminal instance
+2. visit http://localhost:3000
+3. Inspect the logs to se where each service was called from
 
-As note for anybody buildin with bun you can prevent any possible leak by setting your builds to exclude elysia, and any other code that you want to keep on the server.
+Disclaimer: Typically each service would be on it's own deployment, make sure proper security and best practices are in place. This is just a demo for discord. 
 
-const artifacts = Bun.build({
-//...rest of build config
-naming: `${hash}/[name].[ext]`,
-external: ['bun', 'typebox', 'elysia'],
-});
 
-No typebox/ elysia code will be bundled, one method to ensure that you don't accidentally leak server code if you're using react-dom ssr.
