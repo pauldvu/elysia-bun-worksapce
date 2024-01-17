@@ -2,7 +2,10 @@
   "name": "main",
   "private": "true",
   "dependencies": {
-    "vtype": "workspace:*",
-    "immer": "workspace:*"
+    "elysia": "0.8.9",
+    "@elysiajs/eden": "^0.8.1",
+    "insights": "workspace:*",
+    "storage": "workspace:*",
+    "plugin": "workspace:*"
   }
 }

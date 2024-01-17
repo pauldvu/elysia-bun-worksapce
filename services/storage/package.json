@@ -1,0 +1,8 @@
+{
+  "name": "storage",
+  "main": "index.ts",
+  "source": "index.ts",
+  "dependenncies": {
+    "elysia": "0.8.9"
+  }
+}

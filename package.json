@@ -1,15 +1,12 @@
 {
   "workspaces": [
-    "pkgs/*",
-    "apps/*"
+    "services/*",
+    "apps/*",
+    "pkgs/*"
   ],
   "scripts": {
-    "no": "bun i --no-save || echo 'runs bun with no save'",
-    "d": "APP_ENV=local doppler run -- bun --watch run ./apps/platform/index.ts"
-  },
-  "dependencies": {
-    "arktype": "^1.0.29-alpha",
-    "hotscript": "^1.0.13",
-    "string-ts": "^2.0.0"
+    "s1": "bun run ./services/insights/index.ts",
+    "s2": "bun run ./services/storage/index.ts",
+    "m1": "bun run ./apps/main/index.ts"
   }
 }

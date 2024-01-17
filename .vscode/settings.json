@@ -1,5 +1,15 @@
 {
   "files.exclude": {
     "node_modules": false
-  }
+  },
+
+  "betterSnippets.customSnippets": [
+    {
+      "name": "sdf",
+      "body": "",
+      "when": {
+        "languages": ["jsonc"]
+      }
+    }
+  ]
 }

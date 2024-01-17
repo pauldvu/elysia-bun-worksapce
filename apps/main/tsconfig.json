@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": ["dom", "dom.iterable", "esnext", "ES2022"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strict": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+
+    "declaration": true,
+    // "emitDeclarationOnly": true,
+    // "outFile": "./dist/types/index.js",
+    "module": "es2022",
+    "listEmittedFiles": false,
+    "diagnostics": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "noErrorTruncation": true,
+    "extendedDiagnostics": true,
+    "removeComments": false,
+    "pretty": false,
+    "checkJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "."
+  },
+  "compileOnSave": true,
+  "typeAcquisition": {
+    "enable": false
+  }
+}
